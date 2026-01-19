@@ -37,12 +37,12 @@ Incluye un diagrama (ASCII/Mermaid/imagen) y una explicación breve.
                           │
            ┌──────────────┼───────────────┐
            ▼              ▼               ▼
-   +--------------+ +--------------+ +--------------+
-   | IaaS         | | PaaS         | | SaaS         |
-   | Infraestructura | Plataforma   | Aplicaciones |
-   | Servidores,    | Runtime, DB  | Software     |
-   | almacenamiento | Escalado     | Mantenimiento|
-   +--------------+ +--------------+ +--------------+
+   +--------------+  +-------------+ +--------------+
+   | IaaS            | | PaaS      | | SaaS         |
+   | Infraestructura | Plataforma  | Aplicaciones  |
+   | Servidores,     | Runtime, DB | Software       |
+   | almacenamiento  | Escalado    | Mantenimiento|
+   +--------------+  +-------------+ +--------------+
            │              │               │
            ▼              ▼               ▼
    +-----------------------------------------------+
