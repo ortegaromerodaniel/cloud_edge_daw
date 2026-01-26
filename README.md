@@ -60,10 +60,50 @@ La **cloud** entra en cada etapa: la **API** y la **base de datos** suelen estar
 
 
 ### Mapeo de funciones cloud a componentes (mínimo 3)
-- Procesamiento → …
-- Ejecución → …
-- Almacenamiento → …
-- Intercambio → … (opcional si ya tienes 3)
+- **Procesamiento → API / Backend**
+  La cloud ejecuta la lógica de negocio (validaciones, reglas, cálculos) mediante servicios como APIs, contenedores o funciones serverless.
+
+- **Ejecución → Compute en la nube**
+  El código del backend se ejecuta en recursos cloud (VMs, contenedores, Lambdas/Functions), que escalan automáticamente según la demanda.
+
+- **Almacenamiento → BBDD / Storage cloud**
+  Los datos se guardan en bases de datos gestionadas o en storage de objetos (SQL/NoSQL, blobs, buckets), garantizando persistencia y disponibilidad.
+
+- **Intercambio → Red y servicios de comunicación**
+  La cloud facilita la comunicación entre front, API y BBDD mediante redes, balanceadores y APIs expuestas de forma segura.
+
 
 ## 📚 Fuentes (enlaces oficiales)
 (Enlaces oficiales usados en la tabla A y en la B)
+
+Enlaces de la tabla A
+
+* Amazon EC2 → [https://aws.amazon.com/ec2/](https://aws.amazon.com/ec2/)
+* Google Compute Engine → [https://cloud.google.com/compute](https://cloud.google.com/compute)
+* Azure Virtual Machines → [https://azure.microsoft.com/services/virtual-machines/](https://azure.microsoft.com/services/virtual-machines/)
+* AWS Elastic Beanstalk → [https://aws.amazon.com/elasticbeanstalk/](https://aws.amazon.com/elasticbeanstalk/)
+* Google App Engine → [https://cloud.google.com/appengine](https://cloud.google.com/appengine)
+* Azure App Service → [https://azure.microsoft.com/services/app-service/](https://azure.microsoft.com/services/app-service/)
+* Salesforce Sales Cloud → [https://www.salesforce.com/](https://www.salesforce.com/)
+* Google Workspace → [https://workspace.google.com/](https://workspace.google.com/)
+* Microsoft 365 → [https://www.microsoft.com/microsoft-365](https://www.microsoft.com/microsoft-365)
+* Dropbox Business → [https://www.dropbox.com/business](https://www.dropbox.com/business)
+
+Enlaces de la tabla B
+* Amazon EC2: https://aws.amazon.com/ec2/
+* Google Compute Engine: https://cloud.google.com/compute
+* Azure Virtual Machines: https://azure.microsoft.com/services/virtual-machines/
+* PaaS (Plataforma, Runtime, DB, Escalado)
+* AWS Elastic Beanstalk: https://aws.amazon.com/elasticbeanstalk/
+* Google App Engine: https://cloud.google.com/appengine
+* Azure App Service: https://azure.microsoft.com/services/app-service/
+* SaaS (Software, Aplicaciones, Mantenimiento)
+* Salesforce Sales Cloud: https://www.salesforce.com/
+* Google Workspace: https://workspace.google.com/
+* Microsoft 365: https://www.microsoft.com/microsoft-365
+* Dropbox Business: https://www.dropbox.com/business
+* Recursos y Datos (Almacenamiento, Backups, Seguridad, DB)
+* AWS RDS (https://aws.amazon.com/rds/)
+* Google Cloud Storage (https://cloud.google.com/storage)
+* Azure Blob Storage (https://azure.microsoft.com/services/storage/blobs/) gestiona recursos y datos.
+
