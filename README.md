@@ -54,6 +54,11 @@ Incluye un diagrama (ASCII/Mermaid/imagen) y una explicación breve.
 ### Explicación (8–12 líneas)
 (Describe el flujo front → API → BBDD/storage y dónde entra la cloud)
 
+El flujo **front → API → BBDD/storage** sigue estos pasos: el **front-end** (UI) realiza una solicitud HTTP a la **API** cuando el usuario interactúa con la aplicación. La **API** procesa la solicitud, aplica la lógica de negocio y accede a la **base de datos** o **almacenamiento** (BBDD) para obtener o modificar datos. La **base de datos** responde con la información solicitada, y la **API** devuelve la respuesta al front-end, que la muestra al usuario.
+
+La **cloud** entra en cada etapa: la **API** y la **base de datos** suelen estar alojadas en la nube (AWS, Google Cloud, Azure), permitiendo escalabilidad, seguridad y almacenamiento gestionado. La nube también optimiza la distribución de carga y la alta disponibilidad, asegurando que el sistema sea eficiente y resiliente ante picos de tráfico.
+
+
 ### Mapeo de funciones cloud a componentes (mínimo 3)
 - Procesamiento → …
 - Ejecución → …
